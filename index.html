@@ -144,19 +144,22 @@
             <form>
                 <fieldset>
                     <legend>Informações de Contato</legend>
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name"> <br>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="comments">Comentários</label>
-                    <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea>
+                    <div class="informações">
+                        <label for="name">Nome</label> <br>
+                        <input type="text" name="name" id="name" autocomplete="additional-name"> <br>
+                        <label for="email">Email</label> <br>
+                        <input type="email" name="email" id="email" autocomplete="email"> <br>
+                        <label for="comments">Comentários</label> <br>
+                        <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea> <br>
+                        <button>Envie seu FeedBack!</button>
+                    </div>
                 </fieldset>
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy;Quiz de programadores. Todos os direitos reservados</p>
-        <p>Para conhecer outros quizzes <a href="#" target="_blank">Clique aqui</a></p>
+        <p class="p-footer">&copy;Quiz de programadores. Todos os direitos reservados</p>
+        <p class="p-footer">Para conhecer outros quizzes <a href="#" target="_blank">Clique aqui</a></p>
     </footer>
 </body>
 </html>
